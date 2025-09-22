@@ -7,7 +7,7 @@ int main() {
     
     constexpr size_t N = 30;           // Fixed size for the array        
 
-    array<int, N> attendees;           // Our fixed-size container
+    vector<int> attendees;           // Our fixed-size container
 
                                     
     ifstream fin("attendance.txt");     // Open the input file  
